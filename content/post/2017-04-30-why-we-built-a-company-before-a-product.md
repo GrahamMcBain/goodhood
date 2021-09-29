@@ -1,7 +1,7 @@
 ---
 title: Is it a good idea to be friends with your neighbors?
 date: 2021-09-29T07:00:00.000+00:00
-hero: "/images/nina-strehl-ds0zia5gzc4-unsplash.jpeg"
+hero: "/images/nina-strehl-ds0zia5gzc4-unsplash-1.png"
 excerpt: As we grow older many of us will drift away from the friends we party with
   and start to form relationships at work or through our kids.
 timeToRead: 3
