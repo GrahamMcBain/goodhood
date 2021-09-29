@@ -1,18 +1,19 @@
 ---
-title: Brad Tiller
-bio: |
-  Written by You. This is where your author bio lives. Share your work, your
-  joys and of course, your Twitter handle.
-avatar: /images/brad-tiller.jpg
+title: Graham McBain
+bio: "I love building and being part of communities. I'm a community manager in my
+  professional life. For fun I help people turn their neighborhoods into communities.
+  \n"
+avatar: "/images/brad-tiller.jpg"
 social:
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
+- title: twitter
+  url: https://twitter.com/grahammcbain
+- title: github
+  url: https://github.com
+- title: github
+  url: https://github.com
+- title: github
+  url: https://github.com
+- title: github
+  url: https://github.com
+
 ---
