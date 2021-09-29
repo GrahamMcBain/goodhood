@@ -7,13 +7,5 @@ avatar: "/images/brad-tiller.jpg"
 social:
 - title: twitter
   url: https://twitter.com/grahammcbain
-- title: github
-  url: https://github.com
-- title: github
-  url: https://github.com
-- title: github
-  url: https://github.com
-- title: github
-  url: https://github.com
 
 ---
