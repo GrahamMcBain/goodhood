@@ -1,157 +1,28 @@
 ---
-title: Why we built a company before building a product and why it worked
-date: 2017-04-30
-hero: /images/hero-6.jpg
-excerpt: Creating a new website for Hopper, one of the top 4 most downloaded travel apps in the U.S, along with Uber, Lyft.
+title: Is it a good idea to be friends with your neighbors?
+date: 2021-09-29T07:00:00+00:00
+hero: "/images/nina-strehl-ds0zia5gzc4-unsplash.jpeg"
+excerpt: As we grow older many of us will drift away from the friends we party with
+  and start to form relationships at work or through our kids.
 timeToRead: 3
-authors:
-  - Thiago Costa
+authors: []
 
 ---
+The hardest part about making the transition to your post college life is that it means getting a new circle of friends. You find yourself getting into a routine, not going out as much and not meeting anyone new. Most of us will  just end up not make new friends, and that’s sad. 
 
-Hello, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+The real secret to living a happy fulfilling life is making friends with your neighbors. As we grow older many of us will drift away from the friends we party with and start to form relationships at work or through our kids. These relationships are great but they require a lot of work to maintain. And eventually all but the closest of those friendships fall away.
 
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
+Unlike work and party friends, you’ll probably have a lot in common with most of the people who live in your hood. You’ll be in similar financial situations, you maybe at a similar stage of life, and some of them will have kids, or be planning too.
 
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
+Neighbor friends will be less concerned about your job, what you wear, and what music you’re into. What they will really care about is if you’re kind, unpretentious, and open to trying out their cooking. When friendships are based on proximity not affinity, you focus more on what really matters.
 
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
+  
+Neighbor friends have a ton of advantages. You can walk to their house, have a lot to drink and stumble home. If you get to a party at their house and forget something, just walk home and grab it. The best part about neighbor friends is that they WANT to be your friend as much as you do.
 
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
+The main reason most people aren’t friends with their neighbors is because they’re afraid to put themselves out there. Once you get the ball rolling however quickly picks up speed. Before you know it you’ll be having block parties, group walks, and play dates to your hearts content.
 
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
+Your home life doesn’t have to be the siloed, individualistic hells cape that it’s made out to be. You can design your neighborhood community to be the kind of place everyone wants to live.
 
-```js
-import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
-import styled from "@emotion/styled";
+Clearly there can be downsides to making friends with your neighbors, when you have a falling out it can get awkward. But it’s like they say, better to have loved and lost right? 
 
-import * as SocialIcons from "../../icons/social";
-import mediaqueries from "@styles/media";
-
-const icons = {
-  dribbble: SocialIcons.DribbbleIcon,
-  linkedin: SocialIcons.LinkedinIcon,
-  twitter: SocialIcons.TwitterIcon,
-  facebook: SocialIcons.FacebookIcon,
-  instagram: SocialIcons.InstagramIcon,
-  github: SocialIcons.GithubIcon,
-};
-
-const socialQuery = graphql`
-  {
-    allSite {
-      edges {
-        node {
-          siteMetadata {
-            social {
-              name
-              url
-            }
-          }
-        }
-      }
-    }
-  }
-`;
-
-function SocialLinks({ fill = "#73737D" }: { fill: string }) {
-  const result = useStaticQuery(socialQuery);
-  const socialOptions = result.allSite.edges[0].node.siteMetadata.social;
-
-  return (
-    <>
-      {socialOptions.map(option => {
-        const Icon = icons[option.name];
-
-        return (
-          <SocialIconContainer
-            key={option.name}
-            target="_blank"
-            rel="noopener"
-            data-a11y="false"
-            aria-label={`Link to ${option.name}`}
-            href={option.url}
-          >
-            <Icon fill={fill} />
-          </SocialIconContainer>
-        );
-      })}
-    </>
-  );
-}
-```
-
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
-
-# This is a primary heading
-
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
-## This is a secondary heading
-
-```jsx
-import React from "react";
-import { ThemeProvider } from "theme-ui";
-import theme from "./theme";
-
-export default props => (
-  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-);
-```
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
----
-
-Hyphens
-
----
-
-Asterisks
-
----
-
-Underscores
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
-
-Emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-1. First ordered list item
-2. Another item
-   ⋅⋅\* Unordered sub-list.
-3. Actual numbers don't matter, just that it's a number
-   ⋅⋅1. Ordered sub-list
-4. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-- Unordered list can use asterisks
-
-* Or minuses
-
-- Or pluses
+What’s more, when you have created a community full of people you love and trust you’ll never want to move. You’ll stop browsing zillow for a slightly better house in a slightly better area. And you’ll start to live life the way it was meant to be lived. In a tight knit community of humans who all feel a sense of love and belonging.
