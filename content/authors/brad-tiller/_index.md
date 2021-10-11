@@ -7,5 +7,6 @@ avatar: "/images/brad-tiller.jpg"
 social:
 - title: twitter
   url: https://twitter.com/grahammcbain
+featured: true
 
 ---
